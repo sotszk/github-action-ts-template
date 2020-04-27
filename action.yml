@@ -1,0 +1,10 @@
+name: ncu action
+description: npm package update action using ncu
+inputs:
+  my_input:
+    description: example input
+    required: false
+runs:
+  using: node12
+  main: dist/index.js
+

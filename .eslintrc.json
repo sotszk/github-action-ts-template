@@ -1,0 +1,26 @@
+{
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["prettier", "jest"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/camelcase": "off"
+  },
+  "overrides": [
+    {
+      "env": {
+        "jest/globals": true
+      },
+      "files": ["__test__/**/*.test.ts"]
+    }
+  ]
+}
