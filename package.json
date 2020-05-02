@@ -1,7 +1,7 @@
 {
-  "name": "ncu-action",
-  "version": "0.0.1",
-  "description": "npm package update action with ncu",
+  "name": "github-action-typescript-template",
+  "version": "1.0.0",
+  "description": "<YOUR ACTION's DESCRIPTION>",
   "main": "src/index.ts",
   "scripts": {
     "lint": "eslint ./src/**/*.ts",
@@ -12,21 +12,13 @@
     "pack": "ncc build",
     "all": "npm run lint && npm run format && npm run typecheck && npm run test && npm pack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/SotaSuzuki/ncu-action.git"
-  },
   "keywords": [
     "actions",
     "node",
     "typescript"
   ],
-  "author": "SotaSuzuki",
+  "author": "<YOU>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SotaSuzuki/ncu-action/issues"
-  },
-  "homepage": "https://github.com/SotaSuzuki/ncu-action#readme",
   "devDependencies": {
     "@actions/core": "^1.2.3",
     "@actions/exec": "^1.0.3",

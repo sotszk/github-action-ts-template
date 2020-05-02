@@ -1,5 +1,5 @@
-name: ncu action
-description: npm package update action using ncu
+name: <YOUR ACTION's NAME>
+description: <YOUR ACTION's DESCRIPTION>
 inputs:
   my_input:
     description: example input
